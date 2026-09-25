@@ -1,13 +1,12 @@
 {
   "name": "Clean Big Picture Home",
   "author": "Codex",
-  "description": "Hide Recently updated on this device and Trending among friends in Big Picture Mode; keep the desktop Library What's New hidden.",
-  "version": "1.0.1",
+  "description": "Show only Recent Games on the Big Picture home screen, positioned lower; keep the desktop Library What's New hidden.",
+  "version": "2.0.0",
   "Patches": [
     {
       "MatchRegexString": "^Steam Big Picture Mode$",
-      "TargetCss": "bigpicture.custom.css",
-      "TargetJs": "bigpicture.custom.js"
+      "TargetCss": "bigpicture.custom.css"
     },
     {
       "MatchRegexString": "^Steam$",

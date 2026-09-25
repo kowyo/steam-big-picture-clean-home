@@ -1,11 +1,12 @@
 # Clean Big Picture Home
 
-A small [Millennium](https://github.com/SteamClientHomebrew/Millennium) theme for Steam on Windows. It hides these two rows from the Big Picture home screen:
+A small [Millennium](https://github.com/SteamClientHomebrew/Millennium) theme for Steam on Windows. It shows only the **Recent Games** area on the Big Picture home screen and moves it lower. The entire section below it is hidden, including:
 
-- **Recently updated on this device**
-- **Trending among friends**
+- **What's New**
+- **Friends**
+- **Recommended**
 
-The **Special Offers** row remains visible. The theme also hides the desktop Library **What's New** shelf and Steam News button, preserving the behavior of [no more whats new](https://steambrew.app/theme/ravniuH9rc1gfE62sDdD).
+It also hides the desktop Library **What's New** shelf and Steam News button, preserving the behavior of [no more whats new](https://steambrew.app/theme/ravniuH9rc1gfE62sDdD).
 
 ## Install
 
@@ -18,7 +19,7 @@ The theme only changes what Steam displays. It does not remove game data, update
 
 ## Compatibility
 
-Verified on Steam for Windows on September 25, 2026. Steam uses generated CSS class names, so a Steam update may require changes to `bigpicture.custom.css` and `bigpicture.custom.js`. The friends row is matched by its title; languages absent from the list in the script may still display it.
+Verified on Steam for Windows on September 25, 2026. Steam uses generated CSS class names, so a Steam update may require changes to `bigpicture.custom.css`. The theme uses CSS only and does not depend on Steam's display language.
 
 ## Credits
 

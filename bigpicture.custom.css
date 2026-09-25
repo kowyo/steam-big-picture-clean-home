@@ -1,6 +1,9 @@
-/* Steam's current Big Picture class for the recent updates section. */
-._3fDIRGKWUAQUCORORZWL_f,
-/* The script marks the friends carousel after finding its heading. */
-.codex-hide-big-picture-home-row {
+/* Hide the complete What's New / Friends / Recommended section. */
+.cE1SaW6jrVUDxcqRtyMo1 {
   display: none !important;
+}
+
+/* Move the Recent Games row down while leaving room on smaller displays. */
+._2_cRkGdbegoIbiRsy_-I7 {
+  padding-top: clamp(140px, 17vh, 350px) !important;
 }
