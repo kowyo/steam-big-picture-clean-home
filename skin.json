@@ -1,0 +1,17 @@
+{
+  "name": "Clean Big Picture Home",
+  "author": "Codex",
+  "description": "Hide Recently updated on this device and Trending among friends in Big Picture Mode; keep the desktop Library What's New hidden.",
+  "version": "1.0.0",
+  "Patches": [
+    {
+      "MatchRegexString": "^Steam Big Picture Mode$",
+      "TargetCss": "bigpicture.custom.css",
+      "TargetJs": "bigpicture.custom.js"
+    },
+    {
+      "MatchRegexString": "^Steam$",
+      "TargetCss": "libraryroot.custom.css"
+    }
+  ]
+}
