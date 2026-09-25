@@ -1,8 +1,15 @@
 {
   "name": "Clean Big Picture Home",
-  "author": "Codex",
+  "author": "kowyo",
   "description": "Show only Recent Games on the Big Picture home screen, positioned lower; keep the desktop Library What's New hidden.",
   "version": "2.0.0",
+  "github": {
+    "owner": "kowyo",
+    "repo_name": "steam-big-picture-clean-home"
+  },
+  "header_image": "https://raw.githubusercontent.com/kowyo/steam-big-picture-clean-home/main/screenshots/big-picture-home.jpg",
+  "splash_image": "https://raw.githubusercontent.com/kowyo/steam-big-picture-clean-home/main/screenshots/big-picture-home.jpg",
+  "tags": ["Minimal", "Big Picture", "Library"],
   "Patches": [
     {
       "MatchRegexString": "^Steam Big Picture Mode$",
