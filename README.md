@@ -8,6 +8,10 @@ A small [Millennium](https://github.com/SteamClientHomebrew/Millennium) theme fo
 
 It also hides the desktop Library **What's New** shelf and Steam News button, preserving the behavior of [no more whats new](https://steambrew.app/theme/ravniuH9rc1gfE62sDdD).
 
+## Screenshot
+
+![Big Picture home showing only the Recent Games row](screenshots/big-picture-home.jpg)
+
 ## Install
 
 1. Install Millennium if it is not already installed.
