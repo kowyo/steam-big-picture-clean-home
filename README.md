@@ -18,11 +18,7 @@ The theme only changes what Steam displays. It does not remove game data, update
 
 ## Compatibility
 
-Verified on Steam for Windows on September 25, 2026. Steam uses generated CSS class names, so a Steam update may require changes to `bigpicture.custom.css` and `bigpicture.custom.js`. The friends row title list comes from Steam's localization files on that date.
-
-## 中文说明
-
-此主题隐藏 Steam 大屏幕模式首页的“此设备上最近更新”和“好友间人气蹿升”两栏，保留“特别优惠”。它也延续桌面版游戏库中隐藏“What’s New”的效果。安装后在 **Steam → Millennium → Themes** 选择此主题，并按提示重启 Steam。
+Verified on Steam for Windows on September 25, 2026. Steam uses generated CSS class names, so a Steam update may require changes to `bigpicture.custom.css` and `bigpicture.custom.js`. The friends row is matched by its title; languages absent from the list in the script may still display it.
 
 ## Credits
 
